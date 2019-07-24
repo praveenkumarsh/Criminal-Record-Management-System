@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>CriminalDatabase</title>
+        <vendor>JAVA</vendor>
+        <homepage href=""/>
+        <description>CriminalDatabase</description>
+        <description kind="short">CriminalDatabase</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.library.path=&quot;C:\Program_Files_Other\opencv4\opencv\build\java\x64&quot;" version="1.8+"/>
+        <jar href="CriminalDatabase.jar" main="true"/>
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/mysql-connector-java-5.1.47-bin.jar"/>
+<jar href="lib/eclipselink.jar"/>
+<jar href="lib/javax.persistence_2.1.0.v201304241213.jar"/>
+<jar href="lib/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar"/>
+<jar href="lib/ffmpeg-platform.jar"/>
+<jar href="lib/ffmpeg-windows-x86_64.jar"/>
+<jar href="lib/ffmpeg.jar"/>
+<jar href="lib/javacpp.jar"/>
+<jar href="lib/javacv-platform.jar"/>
+<jar href="lib/javacv.jar"/>
+<jar href="lib/opencv-platform.jar"/>
+<jar href="lib/opencv-windows-x86_64.jar"/>
+<jar href="lib/opencv.jar"/>
+</resources>
+    <application-desc main-class="criminaldatabase.OnlineData">
+    </application-desc>
+</jnlp>
