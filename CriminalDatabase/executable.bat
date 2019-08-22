@@ -1,1 +1,0 @@
-java -Djava.library.path="C:\opencv\opencv\build\java\x64" -jar CriminalDatabase.jar

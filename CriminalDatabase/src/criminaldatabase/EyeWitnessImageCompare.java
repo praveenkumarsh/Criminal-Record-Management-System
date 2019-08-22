@@ -503,7 +503,7 @@ public class EyeWitnessImageCompare extends javax.swing.JFrame {
 
                         opencv_core.RectVector detectedFace = new opencv_core.RectVector();
                         cascade.detectMultiScale(imageGray, detectedFace, 1.1, 2, 0, new opencv_core.Size(150, 150), new opencv_core.Size(500, 500));
-
+                        System.out.println(detectedFace.size());
                         for (int i = 0; i < detectedFace.size(); i++) {
                             opencv_core.Rect dadosFace = detectedFace.get(i);
                             rectangle(cameraImage, dadosFace, new opencv_core.Scalar(0, 255, 0, 0));
@@ -515,6 +515,7 @@ public class EyeWitnessImageCompare extends javax.swing.JFrame {
                             recognizer.predict(faceCapturada, rotulo, confidence);
                             int prediction = rotulo.get(0);
                             System.out.println(prediction);
+                            System.out.println(confidence.get(0));
                             if (prediction == -1) {
                                 jLabel4.setText("");
                                 jLabel5.setText("");
