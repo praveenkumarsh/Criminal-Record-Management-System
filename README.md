@@ -29,6 +29,13 @@ Java 8 or higher
 ```
 java -jar "CriminalDatabase.jar"
 ```
+SAMPLE USERID AND PASSWORD<br/>
+ADMIN<br/>
+-USER ID = admin<br/>
+-PASSWORD = admin123<br/>
+OPERATOR<br/>
+-USERID = Deepak<br/>
+-PASSWORD = deepak@123<br/>
 
 
 ### Installing
