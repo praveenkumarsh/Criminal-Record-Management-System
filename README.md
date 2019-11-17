@@ -58,6 +58,6 @@ CriminalDatabase\Library
 
 * **Praveen Kumar Sharma** - *Initial work* - [Praveen Kumar Sharma](https://github.com/Praveen101997)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Praveen101997/Criminal-Record-Management-System/contributors) who participated in this project.
 
 ## License
